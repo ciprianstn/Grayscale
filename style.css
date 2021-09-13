@@ -35,6 +35,11 @@ header {
   background-clip: text;
 }
 
+#about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#4d4d4d));
+  background-image: linear-gradient(to bottom, black, #4d4d4d);
+}
+
 #project1-img {
   height: 300px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(75%, rgba(0, 0, 0, 0.7)), to(#000)), url(assets/img/demo-image-01.jpg);
