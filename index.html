@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/5250882889.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <title>Grayscale</title>
+</head>
+
+<body>
+
+    <div class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <div class="container p-4 p-md-5">
+            <a class="navbar-brand ps-4 fs-3 p-0" href="#">Grayscale</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" id="menu-btn">Menu <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse " id="menu">
+                <ul class="navbar-nav  ms-auto me-4 float-end">
+                    <li class="nav-item ps-md-5">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item ps-md-5">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+
+                    <li class="nav-item ps-md-5">
+                        <a href="#sign-up" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="d-flex flex-column vh-100 justify-content-center align-items-center">
+        <div class="header-title mb-4 text-white text-uppercase">Grayscale</div>
+        <div class="header-text mb-4 text-white">First project learning Bootstrap</div>
+        <button type="button" class="btn btn-primary mt-4 text-uppercase py-3 px-4 rounded-2 shadow-none" style="background-color: #64a19d; border: none; letter-spacing: 2px;">Get Started</button>
+    </header>
+    <section id="about" class="p-md-5 pb-0 pb-md-0 bg-black bg-gradient text-white">
+        <div class="container p-5 pb-0 pb-md-0">
+            <div class="row mt-5 mx-auto">
+                <div class="about-title mt-5 fs-1 text-center">Built with Bootstrap 5</div>
+                <p class="mt-5 mx-auto col-md-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi voluptates dolore, aperiam, perspiciatis earum, vero cum quaerat consequatur sit cupiditate ad! Adipisci voluptatum amet nostrum, quidem fuga atque facere.</p>
+
+            </div>
+            <img src="assets/img/ipad.png" alt="" class="img-fluid mt-5">
+        </div>
+    </section>
+    <section id="projects" class="mt-sm-5 pt-sm-5 container ">
+        <div class="d-flex justify-content-center align-items-center flex-lg-row flex-column m-lg-5 p-lg-5 mt-5">
+            <div class="col-lg-8">
+                <img src="assets/img/bg-masthead.jpg" alt="mountains" class="img-fluid">
+            </div>
+            <div class="d-flex flex-column align-items-center col-lg-4 mt-3">
+                <h1>Shoreline</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, veniam?</p>
+            </div>
+        </div>
+    </section>
+    <section class="container mt-md-5 pt-md-5 row mx-auto g-0 p-3">
+        <div class="col-lg-6" id="project1-img">
+        </div>
+        <div class="col-lg-6 bg-black bg-dark align-items-center d-flex mb-5 mb-lg-0">
+            <div class="my-auto">
+                <h4 class="text-center text-white">Mountains</h4>
+                <p class="text-white-50 w-75 mx-auto">An example of where you can put an image of a project, or anything else, along with a description.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 bg-black bg-dark align-items-center d-flex" id="misty-div">
+            <div class="my-auto">
+                <h4 class="text-center text-white">Misty</h4>
+                <p class="text-white-50 w-75 mx-auto">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+            </div>
+        </div>
+        <div class="col-lg-6" id="project2-img">
+
+        </div>
+    </section>
+    <section class="" id="sign-up">
+        <div class="text-center text-white fs-2"><i class="far fa-paper-plane"></i></div>
+        <div class="text-center text-white fs-3">Subscribe to receive updates!</div>
+        <form class="row g-3 container mt-2 mx-auto col-lg-6 col-md-8 sm-column mb-5">
+            <div class="col-sm">
+                <label for="inputPassword2" class="visually-hidden">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email here...">
+            </div>
+            <div class="col-auto mx-auto">
+                <button type="submit" class="btn btn-primary mb-3">Notify me!</button>
+            </div>
+        </form>
+        <div class="container mx-auto mt-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="fas fa-map-marked-alt" style="color: #64a19d"></i></h5>
+                            <h6 class="card-subtitle my-3 text-center text-uppercase">Address</h6>
+                            <p class="card-text">
+                                <hr style="width: 3rem; margin: auto;">
+                            </p>
+                            <p class="text-center text-muted">1234 Random Street</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="fas fa-envelope" style="color: #64a19d"></i></h5>
+                            <h6 class="card-subtitle my-2 text-center text-uppercase">Email</h6>
+                            <p class="card-text">
+                                <hr style="width: 3rem; margin: auto;">
+                            </p>
+                            <a href="#!" class="link-primary d-flex justify-content-center" style="color: #64a19d;">random.email@mail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="fas fa-mobile-alt" style="color: #64a19d"></i></h5>
+                            <h6 class="card-subtitle my-3 text-center text-uppercase">Phone</h6>
+                            <p class="card-text">
+                                <hr style="width: 3rem; margin: auto;">
+                            </p>
+                            <p class="text-center text-muted">1234567890</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social container d-flex mt-5 pt-5 justify-content-center">
+            <div class="mx-3 bg-dark bg-opacity-55 p-2 rounded-circle d-flex justify-content-center align-items-center" style="cursor: pointer;"><i class="fab fa-twitter fs-4 text-white-50"></i></div>
+            <div class="mx-3 bg-dark bg-opacity-55 p-2 rounded-circle d-flex justify-content-center" style="cursor: pointer;"><i class="fab fa-facebook fs-4 text-white-50"></i></div>
+            <div class="mx-3 bg-dark bg-opacity-55 p-2 rounded-circle d-flex justify-content-center" style="cursor: pointer;"><i class="fab fa-github fs-4 text-white-50"></i></div>
+        </div>
+        <div class="container d-flex justify-content-center mt-5 p-5 text-white-50">
+            <p>Copyright <span>&copy</span> CSTN 2021</p>
+        </div>
+    </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
